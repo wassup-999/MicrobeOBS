@@ -9804,24 +9804,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 123b7918714f66144a0ebbb0e2daa4ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  mode: 1
+  mode: 0
   whiteCells:
     displayName: "Gl\xF3bulos Blancos"
-    grid: {fileID: 586823036}
-    view: {fileID: 874635608}
+    grid: {fileID: 0}
+    view: {fileID: 0}
     isAI: 0
   bacteria:
     displayName: Bacterias
-    grid: {fileID: 1951219388}
-    view: {fileID: 1498106230}
+    grid: {fileID: 0}
+    view: {fileID: 0}
     isAI: 0
   dice: {fileID: 1605675282}
   cam: {fileID: 609576344}
   cameraController: {fileID: 609576347}
   timerText: {fileID: 1504398502}
-  turnText: {fileID: 913694868}
+  turnText: {fileID: 598579876}
   messageText: {fileID: 0}
-  turnDuration: 20
+  turnDuration: 30
   switchDelay: 1.5
   revealSunkOrganisms: 0
   aiThinkDelay: 1.2
